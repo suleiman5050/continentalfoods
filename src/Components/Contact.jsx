@@ -6,10 +6,15 @@ const Contact = () => {
       <div className="section-center">
         <h3>Join our newsletter for news on agro-business </h3>
         <div className="content">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam
-            mollitia ipsum nulla modi omnis ex tempora obcaecati eaque in qui!
-          </p>
+          <div className="contact">
+            <h5>
+              Address :
+              <span>Suite E3, 4th floor, SHM Complex, Mabushi, Abuja FCT</span>
+            </h5>
+            <h5>
+              Telephone : <span>08039492325, 08038487131</span>
+            </h5>
+          </div>
           <form className="contact-form">
             <input
               type="email"
@@ -83,5 +88,9 @@ const Wrapper = styled.section`
   }
   @media (min-width: 1280px) {
     padding: 10rem 0;
+  }
+  span {
+    font-weight: 600;
+    color: var(--clr-grey-3);
   }
 `;

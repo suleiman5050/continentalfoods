@@ -12,10 +12,13 @@ const Services = () => {
             agricultural value chains
           </h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
-            maiores natus ipsam voluptatibus? Voluptatem quo quod asperiores
-            voluptas nihil laudantium? Quod quia repellat, eos qui veniam
-            aliquid ipsam. In, inventore!
+            - by using improved crop and livestock production technologies, and
+            innovative marketing techniques.
+            <br /> - by forming mutually beneficial partnerships with farmers,
+            local and foreign investors, traders and live stock value chains.
+            <br /> - by marketing quality crop and livestock products at prices
+            that are high enough to meet all production, marketing and
+            management costs.
           </p>
         </article>
         <div className="services-center ">
@@ -56,6 +59,7 @@ const Wrapper = styled.div`
     margin-bottom: 0;
     line-height: 1.8;
     color: var(--clr-primary-3);
+    font-weight: 500;
   }
   /* .hold {
     max-width: 360px;
